@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Birth Preparedness and Complication Readiness",
+      "yo": "Ìgbáradì fún Ìbímọ̀ àti Ìpèsè Fún Ìṣẹ̀lẹ̀ Pajáwìrì"
+    },
+    "description": {
+      "en": "Planning and preparing in advance for safe childbirth, with support from family, community, and health facility.",
+      "yo": "Ìgbáradì ní kétékété fún ìbímọ̀ tó dáa pẹ̀lú ìrànlọ́wọ́ láti ọ̀dọ̀ ẹbí, àdúgbò àti ilé ìwòsàn."
+    },
+    "content": {
+      "en": [
+        "1. Attend antenatal visits at least four times during pregnancy in a recognized health facility.",
+        "2. Ensure delivery is attended by a skilled health worker (doctor or midwife).",
+        "3. Plan the place of delivery and arrange transportation during labour.",
+        "4. Prepare all necessary items for the birth.",
+        "5. Save money for hospital bills and medication.",
+        "6. Recognize the signs of labour.",
+        "7. Recognize the danger signs of pregnancy and labour.",
+        "8. Identify a potential blood donor.",
+        "9. Arrange support for delivery and family care while away.",
+        "10. Assign an alternate decision-maker if the primary one is unavailable."
+      ],
+      "yo": [
+        "1. Lọ sí ilé ìwòsàn fún ìtọ́jú oyún ní kéré tán ẹ̀ẹ̀mẹ́rin nígbà oyún.",
+        "2. Ṣe ìmúlò ìbímọ̀ níbi tí dókítà tàbí nọọsi agbẹ́bí wà.",
+        "3. Ṣètò ibi ìbímọ̀ àti ohun ìrìnàjò tó máa gbé aboyun lọ síbẹ̀.",
+        "4. Pèsè gbogbo ohun èlò tó yẹ fún ìbímọ̀.",
+        "5. Pèsè owó tó tó fún ilé ìwòsàn àti ogun.",
+        "6. Mọ àmì ìrọ̀bí kíákíá.",
+        "7. Mọ àwọn àmì ewu oyún àti ìbímọ̀.",
+        "8. Ṣètò ẹni tó lè fi ẹ̀jẹ̀ sílẹ̀.",
+        "9. Ṣètò ẹni tó máa bá aboyun lọ àti ẹni tó máa bójú tó ìdílé.",
+        "10. Yan ẹni míì tó lè gbé ìpinnu báyìí tí olórí kò bá sí."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Nutrition and Pregnancy",
+      "yo": "Oúnjẹ àti Oyún"
+    },
+    "description": {
+      "en": "Good nutrition before, during, and after pregnancy is essential for the health of both mother and child.",
+      "yo": "Oúnjẹ tó péye ṣáájú oyún, nígbà oyún àti lẹ́yìn ìbímọ̀ jẹ́ pàtàkì fún ìlera ìyá àti ọmọ."
+    },
+    "content": {
+      "en": [
+        "1. Eat fresh foods with all classes of nutrients (proteins, carbohydrates, fats, oils) at every meal.",
+        "2. Eat vegetables and fruits regularly for vitamins and minerals.",
+        "3. Eat iron-rich foods such as vegetables, liver, egg, and milk to prevent anaemia.",
+        "4. Eat calcium-rich foods (milk, yoghurt, cheese, seafood) for strong bones and teeth.",
+        "5. Eat green leafy and yellow vegetables for healthy skin, bones, and eyes.",
+        "6. Eat iodine-rich foods (seafood, iodized salt) for brain development.",
+        "7. Eat salty foods in moderation to prevent bloating and water retention.",
+        "8. Drink at least 8 glasses of water daily to reduce constipation and prevent infections.",
+        "9. Take supplements such as folic acid, ferrous sulphate, and vitamin C."
+      ],
+      "yo": [
+        "1. Jẹ oúnjẹ pẹ̀lú gbogbo eroja asàràlórè (àmìno, kariboháidireeti, ọra) ní gbogbo onjẹ.",
+        "2. Máa jẹ́ ẹ̀fọ́ àti èso déédé fún vitamin àti mínerà.",
+        "3. Máa jẹ́ ẹdọ, ẹyin àti wara láti déná àìtó ẹ̀jẹ̀.",
+        "4. Máa jẹ́ wara, yogọ́ọ̀tì, àrọ̀kẹ́sẹ̀ àti ẹja okun fún egungun àti eyín.",
+        "5. Máa jẹ́ ẹ̀fọ́ aláwọ̀ ewé àti aláwọ̀ yíyẹ fún awọ̀, egungun àti ojú.",
+        "6. Máa jẹ́ ẹja okun àti iyọ̀ tó ní iodini fún ọpọlọ ọmọ.",
+        "7. Máa jẹun iyọ̀ pẹ̀lú ìṣọ́ra kí kò fa ìdíwú.",
+        "8. Máa mu omi tó pọ̀ (bó kere tán ìfé méjọ lójoojúmọ́) kí igbé rọrùn, kí a sì déná àrùn.",
+        "9. Máa lo oogun àfikún bí folic acid, ferrous sulphate àti vitamin C."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Family Planning",
+      "yo": "Fètò Sómo Bíbí"
+    },
+    "description": {
+      "en": "Family planning helps individuals or couples decide the number and spacing of their children responsibly.",
+      "yo": "Ìfètò sómo bíbí ń ràn àwọn tọkọtaya lọ́wọ́ láti ṣètò iye àti àsìkò ọmọ tí wọ́n fẹ́ bí."
+    },
+    "content": {
+      "en": [
+        "Benefits of Family Planning:",
+        "1. Reduces maternal deaths from childbirth complications.",
+        "2. Gives mothers time to recover fully between pregnancies.",
+        "3. Decreases complications in the next pregnancy and delivery.",
+        "4. Reduces risk of unwanted pregnancy.",
+        "5. Improves educational opportunities for women.",
+        "6. Reduces financial burden on families.",
+        "",
+        "Types of Family Planning:",
+        "1. Natural Methods – exclusive breastfeeding, calendar methods, abstinence, cycle beads.",
+        "2. Barrier Methods – male/female condom, diaphragm, spermicide, foaming tablets.",
+        "3. Hormonal Methods – injectables, oral contraceptives, implants.",
+        "4. Intrauterine Contraceptive Device (IUCD).",
+        "5. Permanent Methods – tubal ligation, vasectomy."
+      ],
+      "yo": [
+        "Àǹfàní Ìfètò Sómo Bíbí:",
+        "1. Dín ìkú abiyamọ̀ kù látàrí ìṣòro ìbímọ̀.",
+        "2. Fún abiyamọ̀ ní àyè láti sinmi kí ó tó lóyún míràn.",
+        "3. Dínkù ewu nínú oyún àti ìbímọ̀ tó tẹ̀lé.",
+        "4. Dín ìṣèlẹ̀ oyún àìròtẹ́lẹ̀ kù.",
+        "5. Ṣí ànfàní ẹ̀kọ́ fún obìnrin.",
+        "6. Dín ìnáwó ìdílé kù.",
+        "",
+        "Oríṣìíríṣìí Ìfètò Sómo Bíbí:",
+        "1. Amútòrunwá – fífún ọmọ lòyàn déédé, àìní ìbalòpọ̀, lílo kalẹ́ńdà, ìlẹ̀kẹ́ ìfètò.",
+        "2. Ìdábòbò – lílo rọ́bà fún ọkùnrin àti obìnrin.",
+        "3. Ìlànà Homónà – abẹrẹ, tabulẹti, ìmùpọ̀.",
+        "4. IUCD.",
+        "5. Ìṣè abẹ́ àlásọ́pá – tubal ligation àti vasectomy."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "Exclusive Breastfeeding",
+      "yo": "Fífún Ọmọ Lóyàn"
+    },
+    "description": {
+      "en": "Breastfeeding exclusively for six months provides ideal food, protection from illness, and promotes mother-child bonding.",
+      "yo": "Fífún ọmọ lòyàn fún oṣù mẹ́fà kọ́ lóúnjẹ tó péye, ó sì dènà àrùn àti mú ìbáṣepọ̀ tó lágbára láàrín ìyá àti ọmọ."
+    },
+    "content": {
+      "en": [
+        "1. Ensure the baby takes the first yellow milk (colostrum); it protects against diseases.",
+        "2. Breast milk alone is enough for six months — no need for water or other food.",
+        "3. Breastfeeding is economical and convenient.",
+        "4. Promotes strong bonding between mother and child.",
+        "5. Breast milk is safe, free, and always available.",
+        "6. Breastfed babies are healthier and more lively.",
+        "7. Protects against dangerous illnesses.",
+        "8. Essential for brain development and improves IQ.",
+        "9. Reduces diarrhea and colic.",
+        "10. Lowers risk of allergies like asthma later in life.",
+        "11. Helps shrink the womb after delivery.",
+        "12. Acts as natural family planning when done exclusively."
+      ],
+      "yo": [
+        "1. Jẹ́ kí ọmọ mú omi aláwọ̀ pupa (colostrum) tó kọ́kọ́ jáde; ó ń dènà àrùn.",
+        "2. Omi ọmú nìkan tó fún oṣù mẹ́fà — kò nílò omi tàbí onjẹ míràn.",
+        "3. Fífún ọmọ lòyàn kò na ní lọ́wọ́, ó sì rọrùn.",
+        "4. Jẹ́ kí ìfẹ́ wà láàrín ìyá àti ọmọ.",
+        "5. Omi ọmú dájú, rọrùn, kò sì sanwó.",
+        "6. Ọmọ tí a fún lòyàn máa ní ilera dáadáa.",
+        "7. Dènà àrùn tó lèwu.",
+        "8. Pàtàkì fún ìdàgbàsókè ọpọlọ àti ìmúlò IQ.",
+        "9. Dín ìgbẹ́ gbuuru àti ìnù rirun kù.",
+        "10. Dín àìlera bíi asima ní ọjọ́ iwájú.",
+        "11. Ràn lọ́wọ́ kí ile-ìyá padà sí ipo lẹ́yìn ìbímọ̀.",
+        "12. Ṣíṣe ìfètò oyún àdánidá bí a bá fi omi ọmú nìkan fún."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Danger Signs in Pregnancy",
+      "yo": "Àwọn Àmi Tó Lèwu Nígbà Oyún"
+    },
+    "description": {
+      "en": "If you notice any of these signs during pregnancy, seek medical help immediately.",
+      "yo": "Tí o bá ṣàkíyèsí àwọn àmì wọ̀nyí nígbà oyún, lọ sí ilé ìwòsàn lẹ́sẹ̀kẹsẹ̀."
+    },
+    "content": {
+      "en": [
+        "1. Fever.",
+        "2. Excessive weakness.",
+        "3. Severe headache or blurred vision.",
+        "4. Convulsions.",
+        "5. Severe abdominal pain.",
+        "6. Swelling of the feet, hands, or face.",
+        "7. Reduced or no movement of the baby.",
+        "8. Leakage of fluid from the vagina.",
+        "9. Foul-smelling vaginal discharge.",
+        "10. Vaginal bleeding or spotting.",
+        "11. Lower abdominal pain before 37 weeks.",
+        "12. Excessive weight gain.",
+        "13. Shortness of breath.",
+        "14. Severe diarrhoea or vomiting."
+      ],
+      "yo": [
+        "1. Ara gbígbóná tàbí ìbà.",
+        "2. Àìlera púpọ̀.",
+        "3. Èforí tó pọ̀ pẹ̀lú ojú ṣíṣù.",
+        "4. Àrùn gírì (ìṣùrù).",
+        "5. Ìnù rírùn tó pọ̀.",
+        "6. Ìwúpọ̀ ẹsẹ̀, ọwọ́ tàbí ojú.",
+        "7. Ìdínkù tàbí àìní ìrìn ọmọ nínú oyún.",
+        "8. Ìṣàn omi láti inú obo.",
+        "9. Ìṣàn obo tó ń run.",
+        "10. Ìṣàn ẹ̀jẹ̀ láti inú obo.",
+        "11. Ìrora ní abẹ́-ìfun kí oyún tó pé ọ̀sẹ̀ 37.",
+        "12. Ìwọ̀n ara tó pọ̀jù.",
+        "13. Àìlémí kánlẹ̀.",
+        "14. Ìgbẹ́ gbúùrú tàbí ẹ̀ébì tó pọ̀."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "10 Steps to Safe Pregnancy and Healthy Baby",
+      "yo": "Ìgbésẹ̀ Mẹ́wàá Fún Oyún Aláàbò àti Ọmọ Aláàfíà"
+    },
+    "description": {
+      "en": "Every woman should know these essential steps for a safe pregnancy and a healthy baby.",
+      "yo": "Gbogbo obìnrin gbọ́dọ̀ mọ àwọn ìlànà wọ̀nyí fún oyún aláàbò àti ọmọ aláàfíà."
+    },
+    "content": {
+      "en": [
+        "1. When and how to prepare for pregnancy and delivery.",
+        "2. Eat adequate diet before pregnancy and at all times.",
+        "3. Learn important facts about pregnancy and delivery.",
+        "4. Attend antenatal clinic at least four times; receive malaria prevention, folic acid, blood tablets, vitamin C, and tetanus toxoid.",
+        "5. Sleep under insecticide-treated nets (ITNs) throughout pregnancy and with the baby.",
+        "6. Understand Expected Date of Delivery (EDD) and plan with skilled health workers.",
+        "7. Recognize the danger signs of pregnancy and labour.",
+        "8. Save enough money and arrange transportation for delivery.",
+        "9. Understand the importance of exclusive breastfeeding and postnatal care.",
+        "10. Discuss family planning services with health workers."
+      ],
+      "yo": [
+        "1. Àsìkò àti ìlànà láti pèsè fún oyún àti ìbímọ̀.",
+        "2. Jẹ oúnjẹ àṣàràlórè ṣáájú oyún, nígbà oyún àti lẹ́yìn ìbímọ̀.",
+        "3. Kọ́ ẹ̀kọ́ nípa oyún àti ìbímọ̀.",
+        "4. Lọ sí ìtọ́jú oyún ní kéré tán ẹ̀ẹ̀mẹ́rin, kí o sì gba oogun ibà, folic acid, ọ̀gùn ẹ̀jẹ̀, vitamin C àti abẹrẹ tetanus.",
+        "5. Sùn lábẹ́ àpò ẹ̀fọ̀n (ITN) ní gbogbo oyún àti pẹ̀lú ọmọ.",
+        "6. Mọ ọjọ́ ìbímọ̀ tó yẹ (EDD) àti ṣètò pẹ̀lú dókítà tàbí nọọsi agbẹ́bí.",
+        "7. Mọ àwọn àmì ewu oyún àti ìbímọ̀.",
+        "8. Pèsè owó tó tó àti ṣètò irinàjò lọ sí ilé ìwòsàn.",
+        "9. Mọ pàtàkì fífún ọmọ lòyàn àti ìtọju lẹ́yìn ìbímọ̀.",
+        "10. Ṣe ìjíròrò pẹ̀lú alágbàṣepọ̀ ilera nípa ìfètò sómo bíbí."
+      ]
+    }
+  }
+]

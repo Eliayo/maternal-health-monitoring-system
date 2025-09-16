@@ -1,0 +1,18 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+
+# Django Migrations
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Node / React
+node_modules/
+build/
+dist/
+.env
+
+# OS files
+.DS_Store
