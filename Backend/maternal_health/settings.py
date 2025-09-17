@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from celery.schedules import crontab
 from pathlib import Path
 from datetime import timedelta
+from decouple import config
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!p51$))ylw-s$jta!w&*rl6grz+8-+dge9cpmww-&u#ltcp)wv'
+SECRET_KEY = config("DJANGO_SECRET_KEY", default="fallback-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = config("DJANGO_DEBUG", default=False, cast=bool)
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
@@ -88,10 +90,10 @@ WSGI_APPLICATION = 'maternal_health.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        default=config(
+            "DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}")
+    )
 }
 
 
@@ -136,6 +138,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -182,10 +186,16 @@ SMS_BACKEND = "console"  # "twilio" in prod
 # TWILIO_TOKEN = "..."
 # TWILIO_FROM = "+1234567890"
 
-CELERY_BROKER_URL = "redis://127.0.0.1:6379/0"
-CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379/0"
+
+CELERY_BROKER_URL = config(
+    "CELERY_BROKER_URL", default="redis://127.0.0.1:6379/0")
+CELERY_RESULT_BACKEND = config(
+    "CELERY_RESULT_BACKEND", default="redis://127.0.0.1:6379/0")
 CELERY_TIMEZONE = TIME_ZONE  # reuse your Django TIME_ZONE
 
+
+CSRF_TRUSTED_ORIGINS = config(
+    "DJANGO_CSRF_TRUSTED_ORIGINS", default="").split(",")
 
 CELERY_BEAT_SCHEDULE = {
     "appointment_reminders_daily": {
