@@ -13,6 +13,7 @@ datasets==4.0.0
 decouple==0.0.7
 dill==0.3.8
 distlib==0.3.8
+dj-database-url==3.0.1
 Django==5.2
 django-cors-headers==4.7.0
 django-extensions==4.1
@@ -58,6 +59,7 @@ pillow==11.3.0
 platformdirs==4.3.6
 propcache==0.3.2
 protobuf==6.32.0
+psycopg2-binary==2.9.10
 pyarrow==21.0.0
 Pygments==2.19.2
 PyJWT==2.10.1
